@@ -1,0 +1,151 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Courgette', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #3A4750;
+}
+
+/* Heading */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #3A4750;
+  color: #EEEEEE;
+}
+
+.white-section {
+  background-color: #EEEEEE;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Abel', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Title Section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Title Image */
+.title-image {
+  position: static;
+  right: 30%;
+  width: 90%;
+}
+
+/* Features-section */
+#features {
+  background-color: #EEEEEE;
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #3A4750;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #D72323;
+}
+
+.lg {
+  font-size: 4rem;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #303841;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #303841;
+  padding-bottom: 3%
+}
+
+.press-logo {
+  width: 15%;
+  margin: 30px 20px 50px;
+}
+
+/* Footer Section */
+.social-icon {
+  color: #000;
+  margin: 20px 10px;
+}
+
+.social-icon:hover {
+  color: #D72323;
+}
+
+@media (max-width: 1024px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+  }
+}
