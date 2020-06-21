@@ -120,6 +120,12 @@ p {
   margin: 20px;
 }
 
+.company{
+  padding-top: 1.7%;
+  margin: 10px 10px;
+  color: #EEEEEE;
+}
+
 #press {
   background-color: #303841;
   padding-bottom: 3%
