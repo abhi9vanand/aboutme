@@ -150,6 +150,10 @@ p {
   color: #D72323;
 }
 
+.sp0{
+  padding-right: 1%;
+}
+
 @media (max-width: 1024px) {
   #title {
     text-align: center;
