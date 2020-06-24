@@ -150,8 +150,17 @@ p {
   color: #D72323;
 }
 
-.sp0{
+.sp{
   padding-right: 1%;
+}
+
+.top{
+  color: #000;
+  margin-left: 1200px;
+}
+
+.top:hover{
+  color: #D72323;
 }
 
 @media (max-width: 1024px) {
