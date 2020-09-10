@@ -146,6 +146,10 @@ p {
   margin: 20px 10px;
 }
 
+.social-icon1{
+  color: #55acee;
+}
+
 .social-icon:hover {
   color: #D72323;
 }
@@ -162,4 +166,8 @@ p {
   .title-image {
     position: static;
   }
+}
+
+.qr{
+  padding-top: 2%;
 }
